@@ -1,10 +1,14 @@
 # ReviOS Playbook
-[![Releases](https://img.shields.io/github/v/release/meetrevision/playbook.svg)](https://github.com/meetrevision/playbook/releases)
+[![Original Releases](https://img.shields.io/github/v/release/meetrevision/playbook.svg)](https://github.com/meetrevision/playbook/releases)
 [![License](https://img.shields.io/static/v1?label=LICENSE&message=CC%20BY-NC-SA&logo=creativecommons)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 <a href="https://www.buymeacoffee.com/meetrevision" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" height="20px"></a>
 <br>
 
-ReviOS is a customized version of Windows, designed to be lightweight, stable, and focused on improving performance, privacy and compatibility. It aspires to re-create what Windows as an operating system should have been - easy and simple. Now compatible with [AME Wizard](https://ameliorated.io).
+ReviOS Mod is a customized version of Windows, designed to be lightweight, stable, and focused on improving performance, privacy and compatibility. It aspires to re-create what Windows as an operating system should have been - easy and simple. Now compatible with [AME Wizard](https://ameliorated.io).
+
+# What are "mod" changes? 
+Basically nothing installations give 2 different browsers that I like more.
+Future changes will be written and added
 
 ## Features
 
@@ -35,7 +39,7 @@ To use ReviOS Playbook on your computer, follow these steps:
 
 ## Documentation
 
-See our documentation for more information:
+See ReviOS original documentation for more information:
 
 - [Playbook](https://www.revi.cc/docs/playbook/general)
 - [Installing Windows](https://www.revi.cc/docs/playbook/installwindows)
