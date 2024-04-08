@@ -64,17 +64,17 @@ actions:
   - !writeStatus: {status: 'Configuring Firefox', option: "browser-firefox"}
   - !run: {exe: 'FIREFOX.cmd', exeDir: true, weight: 20, option: "browser-firefox"}
 
-  # - !writeStatus: {status: 'Installing Ungoogled Chromium', option: "browser-ugc"}
-  # - !cmd:
-  #   command: '"%ProgramData%\chocolatey\bin\choco.exe" install -y --force --allow-empty-checksums ungoogled-chromium'
-  #   weight: 150
-  #   option: "browser-ugc"
+   - !writeStatus: {status: 'Installing Ungoogled Chromium', option: "browser-ugc"}
+   - !cmd:
+     command: '"%ProgramData%\chocolatey\bin\choco.exe" install -y --force --allow-empty-checksums ungoogled-chromium'
+     weight: 150
+     option: "browser-ugc"
 
-  # - !writeStatus: {status: 'Installing LibreWolf', option: "browser-librewolf"}
-  # - !cmd:
-  #   command: '"%ProgramData%\chocolatey\bin\choco.exe" install -y --force --allow-empty-checksums librewolf'
-  #   weight: 150
-  #   option: "browser-librewolf"
+   - !writeStatus: {status: 'Installing LibreWolf', option: "browser-librewolf"}
+   - !cmd:
+     command: '"%ProgramData%\chocolatey\bin\choco.exe" install -y --force --allow-empty-checksums librewolf'
+     weight: 150
+     option: "browser-librewolf"
 
   # Waterfox
   - !writeStatus: {status: 'Installing Waterfox', option: "browser-waterfox"}
@@ -83,3 +83,11 @@ actions:
     runas: currentUserElevated
     weight: 150
     option: "browser-waterfox"    
+
+  # Floorp 
+  - !writeStatus: {status: 'Installing Floorp', option: "browser-floorp"}
+  - !cmd:
+    command: '"%ProgramData%\chocolatey\bin\choco.exe" install -y --force --allow-empty-checksums floorp'
+    runas: currentUserElevated
+    weight: 150
+    option: "browser-floorp"    
