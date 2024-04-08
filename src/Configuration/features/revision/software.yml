@@ -75,3 +75,11 @@ actions:
   #   command: '"%ProgramData%\chocolatey\bin\choco.exe" install -y --force --allow-empty-checksums librewolf'
   #   weight: 150
   #   option: "browser-librewolf"
+
+  # Waterfox
+  - !writeStatus: {status: 'Installing Waterfox', option: "browser-waterfox"}
+  - !cmd:
+    command: '"%ProgramData%\chocolatey\bin\choco.exe" install -y --force --allow-empty-checksums waterfox'
+    runas: currentUserElevated
+    weight: 150
+    option: "browser-waterfox"    
