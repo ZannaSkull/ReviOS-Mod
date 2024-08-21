@@ -52,6 +52,13 @@ Ready to elevate your Windows experience? Follow these simple steps:
 2. Launch the AME Wizard and drag-and-drop the playbook into the interface.
 3. Follow the on-screen instructions to complete the installation.
 
+## 👻 Mod Changelogs
+
+What changes in this modified version? 
+
+- Waterfox & Floorp as Default browser
+- Removed Windows Backup app
+
 ## 📚 Documentation
 
 Explore our documentation for more information:
