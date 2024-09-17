@@ -56,8 +56,9 @@ Ready to elevate your Windows experience? Follow these simple steps:
 
 What changes in this modified version? 
 
-- Waterfox & Floorp as Default browser
+- Waterfox & Floorp as Default browser / Currently Broken!
 - Removed Windows Backup app
+- Build-in AdAway Soon!
 
 ## 📚 Documentation
 
