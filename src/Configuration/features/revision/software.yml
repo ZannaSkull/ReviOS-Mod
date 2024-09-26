@@ -48,16 +48,18 @@ actions:
     # Waterfox
   - !writeStatus: {status: 'Installing Waterfox', option: "browser-waterfox"}
   - !cmd:
-    command: '"%ProgramData%\chocolatey\bin\choco.exe" install -y --force --allow-empty-checksums waterfox'
+    command: '"winget install Waterfox.Waterfox --source winget --scope machine --silent --accept-source-agreements --accept-package-agreements'
     runas: currentUserElevated
     weight: 150
+    wait: true
     option: "browser-waterfox"   
     
    # Floorp 
   - !writeStatus: {status: 'Installing Floorp', option: "browser-floorp"}
   - !cmd:
-    command: '"%ProgramData%\chocolatey\bin\choco.exe" install -y --force --allow-empty-checksums floorp'
+    command: '"winget install Ablaze.Floorp --source winget --scope machine --silent --accept-source-agreements --accept-package-agreements'
     runas: currentUserElevated
     weight: 150
+    wait: true
     option: "browser-floorp"    
    
