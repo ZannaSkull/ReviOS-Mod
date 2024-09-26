@@ -1,7 +1,7 @@
 <h1 align="center">
 
 ReviOS Playbook📜 
-But Forked.. Working
+But With more privacy
 
 ---
 
