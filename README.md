@@ -58,7 +58,7 @@ What changes in this modified version?
 
 - Waterfox & Floorp as Default browser !
 - Removed Windows Backup app
-- Build-in AdAway Soon!
+- Blocked Google ADS
 
 ## 📚 Documentation
 
