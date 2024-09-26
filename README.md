@@ -58,7 +58,7 @@ What changes in this modified version?
 
 - Waterfox & Floorp as Default browser !
 - Removed Windows Backup app
-- Blocked Google ADS
+- Blocked Google ADS, Doubleclick ADS, TikTok Trackers / ADS, Reddit ADS, Pinterest ADS, Google Analytics  
 
 ## 📚 Documentation
 
